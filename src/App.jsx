@@ -16,7 +16,7 @@ function App() {
     altura: 0,
     comprimento:0,
     densidade:""
-});
+  });
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -42,24 +42,24 @@ function App() {
       <Card.Body>
         <Form onSubmit={handleSubmit}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Largura</Form.Label>
-            <Form.Control type="number" name="largura" value={input.largura} onChange={inputChange} placeholder="Dê largura em cm" />
+            <Form.Label>Comprimento</Form.Label>
+            <Form.Control type="number" name="comprimento" value={input.comprimento} onChange={inputChange} placeholder="Indique o comprimento em cm" />
             <Form.Text className="text-muted">
-              Dê largura em cm
+              Indique o comprimento em cm
+            </Form.Text>
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Label>Largura</Form.Label>
+            <Form.Control type="number" name="largura" value={input.largura} onChange={inputChange} placeholder="Dar largura em cm" />
+            <Form.Text className="text-muted">
+              Dar largura em cm
             </Form.Text>
           </Form.Group>
           <Form.Group className="mb-3"  controlId="formBasicEmail">
             <Form.Label>Altura</Form.Label>
-            <Form.Control type="number" name="altura" value={input.altura} onChange={inputChange} placeholder="Informe a altura em cm" />
+            <Form.Control type="number" name="altura" value={input.altura} onChange={inputChange} placeholder="Indique a altura em cm" />
             <Form.Text className="text-muted">
-              Informe a altura em cm
-            </Form.Text>
-          </Form.Group>
-          <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Comprimento</Form.Label>
-            <Form.Control type="number" name="comprimento" value={input.comprimento} onChange={inputChange} placeholder="Informe o comprimento em cm" />
-            <Form.Text className="text-muted">
-              Informe o comprimento em cm
+              Indique a altura em cm
             </Form.Text>
           </Form.Group>
           
@@ -67,21 +67,22 @@ function App() {
             <Form.Label>Densidade</Form.Label>
             <Form.Select name='densidade' onChange={inputChange} value={input.densidade}>
               <option>Abra este menu</option>
-              <option value={810}>15</option>
-              <option value={930}>20</option>
-              <option value={1030}>23</option>
-              <option value={1170}>27</option>
-              <option value={1230}>28</option>
-              <option value={1350}>28 Premium</option>
-              <option value={1365}>28 Macia</option>
-              <option value={1280}>33</option>
-              <option value={1630}>33 Macia</option>
-              <option value={1700}>35</option>
-              <option value={2100}>45</option>
-              <option value={2200}>80</option>
+              <option value={81000}>15D</option>
+              <option value={93000}>20D</option>
+              <option value={1.03000}>23D</option>
+              <option value={1.17000}>27D</option>
+              <option value={1.25000}>28D</option>
+              <option value={1.28000}>28D</option>
+              <option value={1.35000}>28D Premium</option>
+              <option value={1.36500}>28D Macia</option>
+              <option value={1.28000}>33D</option>
+              <option value={1.63000}>33D Macia</option>
+              <option value={1.70000}>35D</option>
+              <option value={2.10000}>45D</option>
+              <option value={2.20000}>80D</option>
             </Form.Select>
             <Form.Text className="text-muted">
-              Densidad de las espumas
+              Densidade da espuma
             </Form.Text>
           </Form.Group>
           <Form.Group className='d-flex justify-content-center gap-2'>
