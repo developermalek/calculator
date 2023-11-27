@@ -1,7 +1,4 @@
-import Card from 'react-bootstrap/Card';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import Alert from 'react-bootstrap/Alert';
+import { Card, Form, Button, Alert } from 'react-bootstrap';
 import { toast } from 'react-toastify';
 import vtexInput from 'vtex-input';
 import './App.css'
@@ -67,24 +64,25 @@ function App() {
             <Form.Label>Densidade</Form.Label>
             <Form.Select name='densidade' onChange={inputChange} value={input.densidade}>
               <option>Abra este menu</option>
-              <option value={81000}>15D</option>
-              <option value={93000}>20D</option>
-              <option value={1.03000}>23D</option>
-              <option value={1.17000}>27D</option>
-              <option value={1.25000}>28D</option>
-              <option value={1.28000}>28D</option>
-              <option value={1.35000}>28D Premium</option>
-              <option value={1.36500}>28D Macia</option>
-              <option value={1.28000}>33D</option>
-              <option value={1.63000}>33D Macia</option>
-              <option value={1.70000}>35D</option>
-              <option value={2.10000}>45D</option>
-              <option value={2.20000}>80D</option>
+              <option value={0.000810}>D15 Branca</option>
+              <option value={0.000930}>D20 Branca</option>
+              <option value={0.0001030}>D23 Branca</option>
+              <option value={0.0001170}>D27 Branca</option>
+              <option value={0.0001250}>D28 Azul</option>
+              <option value={0.0001280}>D28 Chumbo</option> 
+              <option value={0.0001350}>28 Premium Verde clara</option> 
+              <option value={0.0001280}>D33 Laranja</option>
+              <option value={0.0001630}>D33 Macia Laranja claro</option>
+              <option value={0.0001700}>D35 Amarela</option>
+              <option value={0.0002100}>D45 Chumbo</option>
+              <option value={0.0002200}>Aglomerado D80</option>
+              <option value={0.0001365}>D28 Macia Branca</option>
             </Form.Select>
             <Form.Text className="text-muted">
               Densidade da espuma
             </Form.Text>
           </Form.Group>
+          
           <Form.Group className='d-flex justify-content-center gap-2'>
             <Button onClick={handleReset} className="w-100" variant="danger" type="reset">
               Limpar
