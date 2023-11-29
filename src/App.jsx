@@ -121,7 +121,7 @@ function App() {
     </Col>
     <Col lg={4}>
     <Card >
-    <Card.Header as="h4" className="text-center">Contact our Whatsapp</Card.Header>
+    <Card.Header as="h4" className="text-center">ara o seu pedido</Card.Header>
       <Card.Body>
         <img className='whatsapp-image' src={whatsapp} alt="Whatsapp" />
       </Card.Body>
