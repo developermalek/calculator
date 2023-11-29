@@ -43,7 +43,7 @@ function App() {
       <Row>
       <Col lg={4}>
     <Card >
-    <Card.Header as="h4" className="text-center">Foam Measurment</Card.Header>
+    <Card.Header as="h4" className="text-center">Medição de Espuma</Card.Header>
       <Card.Body>
         <img className='measurment' src={measurment} alt="measurment" />
       </Card.Body>
