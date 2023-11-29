@@ -64,7 +64,7 @@ function App() {
             <Form.Label>Densidade</Form.Label>
             <Form.Select name='densidade' onChange={inputChange} value={input.densidade}>
               <option>Abra este menu</option>
-              <option value={0.000810}>D15 Branca</option>
+              <option value={0.000810}>D15 Branca let's check</option>
               <option value={0.000930}>D20 Branca</option>
               <option value={0.001030}>D23 Branca</option>
               <option value={0.001170}>D27 Branca</option>
