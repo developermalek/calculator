@@ -3,7 +3,11 @@ import { toast } from 'react-toastify';
 import vtexInput from 'vtex-input';
 import './App.css'
 import { useState } from 'react';
-
+import whatsapp from "./assets/QR Code Espumas Pompei.jpg"
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import measurment from "./assets/modelo altura x largura x comprimento.jpg"
 function App() {
 
   const [state, setState] = useState(0)
@@ -34,7 +38,20 @@ function App() {
   }
 
   return (
-     <Card style={{ width: '22rem' }}>
+    <>
+    <Container>
+      <Row>
+      <Col lg={4}>
+    <Card >
+    <Card.Header as="h4" className="text-center">Foam Measurment</Card.Header>
+      <Card.Body>
+        <img className='measurment' src={measurment} alt="measurment" />
+      </Card.Body>
+    </Card>
+    </Col>
+      <Col lg={4}>
+
+     <Card className='lg-my-4'>
       <Card.Header as="h4" className="text-center">ESPUMAS A MEDIDA</Card.Header>
       <Card.Body>
         <Form onSubmit={handleSubmit}>
@@ -93,7 +110,7 @@ function App() {
           </Form.Group>
         </Form>
       </Card.Body>
-      <Card.Footer className="text-center" style={{ minHeight: '12vh' }}>
+      <Card.Footer className="text-center" style={{ minHeight: '15vh' }}>
         {
           state > 0 && <Alert variant="success">
             <h6 className='fs-5'>Preço final = <b>R$ {state}</b></h6>
@@ -101,6 +118,20 @@ function App() {
         }
       </Card.Footer>
     </Card>
+    </Col>
+    <Col lg={4}>
+    <Card >
+    <Card.Header as="h4" className="text-center">Contact our Whatsapp</Card.Header>
+      <Card.Body>
+        <img className='whatsapp-image' src={whatsapp} alt="Whatsapp" />
+      </Card.Body>
+    </Card>
+    </Col>
+      </Row>
+    </Container>
+    </>
+
+
   )
 }
 

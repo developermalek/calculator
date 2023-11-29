@@ -4,3 +4,6 @@
   padding: 2rem;
   text-align: left;
 }
+.whatsapp-image,.measurment {
+  max-width: 100%;
+}
