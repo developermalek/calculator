@@ -129,20 +129,19 @@ function App() {
     </Col>
       </Row>
     </Container>
-    <Container>
+    {/* <Container>
       <Row>
       <Col lg={4}></Col>
       <Col lg={4}>
     <Card  class-name="center">
-    <Card.Header as="h4" className="text-center">Medição de Espuma</Card.Header>
       <Card.Body>
-      <Button className="w-100,center" variant="link" src="https://www.espumaspompei.com">Back to home</Button>
+      <Button className="w-100,center" variant="success" src="https://www.espumaspompei.com">Back to home</Button>
       </Card.Body>
     </Card>
     <Col lg={4}></Col>
     </Col>
     </Row>
-    </Container>
+    </Container> */}
     </>
 
 
