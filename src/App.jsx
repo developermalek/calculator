@@ -125,24 +125,12 @@ function App() {
     <Card.Header as="h4" className="text-center">Para o seu pedido, converse com Espumas Pompei</Card.Header>
       <Card.Body>
         <img className='whatsapp-image' src={whatsapp} alt="Whatsapp" />
+        <a href="https://wa.me/message/SD52ZLYIG763D1?src=qr">(11)98969-0709</a>
       </Card.Body>
     </Card>
     </Col>
       </Row>
     </Container>
-    {/* <Container>
-      <Row>
-      <Col lg={4}></Col>
-      <Col lg={4}>
-    <Card  class-name="center">
-      <Card.Body>
-      <Button className="w-100,center" variant="success" src="https://www.espumaspompei.com">Back to home</Button>
-      </Card.Body>
-    </Card>
-    <Col lg={4}></Col>
-    </Col>
-    </Row>
-    </Container> */}
     </>
 
 
