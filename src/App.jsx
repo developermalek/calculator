@@ -125,7 +125,7 @@ function App() {
     <Card.Header as="h4" className="text-center">Para o seu pedido, converse com Espumas Pompei</Card.Header>
       <Card.Body className='text-center'>
         <img className='whatsapp-image' src={whatsapp} alt="Whatsapp" /><br></br>
-        <a className='text-center' href="https://wa.me/message/SD52ZLYIG763D1?src=qr">Click Here:(11)98969-0709</a>
+        <a className='text-center' href="https://wa.me/message/SD52ZLYIG763D1?src=qr">Clique Aqui:(11)98969-0709</a>
       </Card.Body>
     </Card>
     </Col>
