@@ -3,7 +3,7 @@ import { toast } from 'react-toastify';
 import vtexInput from 'vtex-input';
 import './App.css'
 import { useState } from 'react';
-import whatsapp from "./assets/QR Code Espumas Pompei.jpg"
+import whatsapp from "./assets/Whatsapp.png"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -125,7 +125,7 @@ function App() {
     <Card.Header as="h4" className="text-center">Para o seu pedido, converse com Espumas Pompei</Card.Header>
       <Card.Body>
         <img className='whatsapp-image' src={whatsapp} alt="Whatsapp" />
-        <a href="https://wa.me/message/SD52ZLYIG763D1?src=qr">(11)98969-0709</a>
+        <a className='text-center' href="https://wa.me/message/SD52ZLYIG763D1?src=qr">Click Here:(11)98969-0709</a>
       </Card.Body>
     </Card>
     </Col>
