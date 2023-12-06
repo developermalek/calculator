@@ -7,7 +7,7 @@ import whatsapp from "./assets/Whatsapp.png"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import measurment from "./assets/modelo altura x largura x comprimento.jpg"
+import measurment from "./assets/measurment.jpg"
 function App() {
 
   const [state, setState] = useState(0)
@@ -124,7 +124,7 @@ function App() {
     <Card >
     <Card.Header as="h4" className="text-center">Para o seu pedido, converse com Espumas Pompei</Card.Header>
       <Card.Body className='text-center'>
-        <img className='whatsapp-image' src={whatsapp} alt="Whatsapp" /><br></br>
+        <img className='whatsapp-image w-80' src={whatsapp} alt="Whatsapp" /><br></br>
         <a className='text-center' href="https://wa.me/message/SD52ZLYIG763D1?src=qr">Clique Aqui:(11)98969-0709</a>
       </Card.Body>
     </Card>
