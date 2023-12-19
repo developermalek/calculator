@@ -13,9 +13,9 @@ function App() {
   const [state, setState] = useState(0)
 
   const [input, inputChange, form] = vtexInput({
-    largura: 0,
-    altura: 0,
-    comprimento: 0,
+    largura: ,
+    altura: ,
+    comprimento: ,
     densidade: ""
   });
 
