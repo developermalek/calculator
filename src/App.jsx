@@ -136,7 +136,7 @@ function App() {
                 <img className='measurment' src={measurment} alt="measurment"/>
                 <div className='d-flex justify-content-between px-5'>
                   <div >
-                    <h2 className='pe-2 fw-bold'>Parg o seu pedlclo,converse com a gente.</h2>
+                    <h2 className='pe-2 fw-bold'>Para o seu pedido, converse com a gente</h2>
                   <a className='text-center' href="https://wa.me/message/SD52ZLYIG763D1?src=qr">Clique Aqui:(11)98969-0709</a>
                   </div>
                   <div>
