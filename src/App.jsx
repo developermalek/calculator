@@ -74,19 +74,19 @@ function App() {
             <Form.Label>Densidade</Form.Label>
             <Form.Select name='densidade' onChange={inputChange} value={input.densidade}>
               <option>Abra este menu</option>
-              <option value={0.000810}>D15 Branca</option>
-              <option value={0.000930}>D20 Branca</option>
-              <option value={0.001030}>D23 Branca</option>
-              <option value={0.001170}>D27 Branca</option>
-              <option value={0.001250}>D28 Azul</option>
-              <option value={0.001280}>D28 Chumbo</option> 
-              <option value={0.001350}>28 Premium Verde clara</option> 
-              <option value={0.001280}>D33 Laranja</option>
-              <option value={0.001630}>D33 Macia Laranja claro</option>
-              <option value={0.001700}>D35 Amarela</option>
-              <option value={0.002100}>D45 Chumbo</option>
-              <option value={0.002200}>Aglomerado D80</option>
-              <option value={0.001365}>D28 Macia Branca</option>
+              <option value={.000810}>D15 Branca</option>
+              <option value={.000930}>D20 Branca</option>
+              <option value={.001030}>D23 Branca</option>
+              <option value={.001170}>D27 Branca</option>
+              <option value={.001250}>D28 Azul</option>
+              <option value={.001280}>D28 Chumbo</option> 
+              <option value={.001350}>28 Premium Verde clara</option> 
+              <option value={.001280}>D33 Laranja</option>
+              <option value={.001630}>D33 Macia Laranja claro</option>
+              <option value={.001700}>D35 Amarela</option>
+              <option value={.002100}>D45 Chumbo</option>
+              <option value={.002200}>Aglomerado D80</option>
+              <option value={.001365}>D28 Macia Branca</option>
             </Form.Select>
             <Form.Text className="text-muted">
               Densidade da espuma
