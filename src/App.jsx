@@ -13,9 +13,9 @@ function App() {
   const [state, setState] = useState(0)
 
   const [input, inputChange, form] = vtexInput({
-    largura: ,
-    altura: ,
-    comprimento: ,
+    largura:"" ,
+    altura: "",
+    comprimento:"" ,
     densidade: ""
   });
 
@@ -50,7 +50,7 @@ function App() {
         <Form onSubmit={handleSubmit}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Comprimento</Form.Label>
-            <Form.Control type="number" name="comprimento" value={input.comprimento} onChange={inputChange} placeholder="Indique o comprimento em cm" />
+            <Form.Control type="number" name="comprimento" value={input} onChange={inputChange} placeholder="Indique o comprimento em cm" />
             <Form.Text className="text-muted">
               Indique o comprimento em cm
             </Form.Text>
