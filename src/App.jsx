@@ -38,8 +38,8 @@ function App() {
   }
 
   return (
-    <>
-    <Container>
+  <>
+   <Container>
      <Row>
 
       <Col lg={6}>
@@ -118,7 +118,7 @@ function App() {
                     </Form.Group>
                 </Form>
             </Card.Body>
-            <Card.Footer className="text-center" style={{ minHeight: '15vh' } }>
+            <Card.Footer className="text-center" style={{ minHeight: '22vh' } }>
                 { state > 0 &&
                 <Alert variant="success">
                     <h6 className='fs-5'>Preço final =
@@ -129,7 +129,7 @@ function App() {
             </Card.Footer>
         </Card>
       </Col>
-    <Col lg={6}>
+      <Col lg={6}>
         <Card >
             <Card.Header as="h4" className="text-center">Medição de Espuma</Card.Header>
             <Card.Body>
@@ -147,10 +147,10 @@ function App() {
 
             </Card.Body>
         </Card>
-    </Col>
+      </Col>
   
-  </Row>
-</Container>
+    </Row>
+  </Container>
 </>
 
 
