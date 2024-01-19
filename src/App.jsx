@@ -12,7 +12,7 @@ function App() {
 
   const [state, setState] = useState(0)
 
-  const [input, inputChange, form, setInput] = vtexInput({
+  const [input, inputChange, form] = vtexInput({
     largura:"" ,
     altura: "",
     comprimento:"" ,
@@ -36,12 +36,6 @@ function App() {
     form.clear();
     setState(0)
   }
-const inputSelect = (e) => {
-  setInput((prev) => ({
-    ...prev,
-    densidade: e.target.value
-  }))
-}
 
   return (
   <>
@@ -93,7 +87,7 @@ const inputSelect = (e) => {
 
                     <Form.Group className="mb-3">
                         <Form.Label>Densidade</Form.Label>
-                        <Form.Select aria-label="Default select example" name='densidade' onChange={inputSelect} value={input.densidade}>
+                        <Form.Select aria-label="Default select example" name='densidade' onChange={inputChange} value={input.densidade}>
                             <option>Abra este menu</option>
                             <option value={0.000810}>D15 Branca</option>
                             <option value={0.000930}>D20 Branca</option>
