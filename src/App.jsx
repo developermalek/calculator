@@ -89,19 +89,19 @@ function App() {
                         <Form.Label>Densidade</Form.Label>
                         <Form.Select name='densidade' onChange={inputChange} value={input.densidade}>
                             <option>Abra este menu</option>
-                            <option value={0.000810}>D15 Branca</option>
-                            <option value={0.000930}>D20 Branca</option>
-                            <option value={0.001030}>D23 Branca</option>
-                            <option value={0.001170}>D27 Branca</option>
-                            <option value={0.001250}>D28 Azul</option>
-                            <option value={0.001280}>D28 Chumbo</option>
-                            <option value={0.001350}>28 Premium Verde clara</option>
-                            <option value={0.001280}>D33 Laranja</option>
-                            <option value={0.001630}>D33 Macia Laranja claro</option>
-                            <option value={0.001700}>D35 Amarela</option>
-                            <option value={0.002100}>D45 Chumbo</option>
-                            <option value={0.002200}>Aglomerado D80</option>
-                            <option value={0.001365}>D28 Macia Branca</option>
+                            <option value={0.000800}>D15 Cinza</option>
+                            <option value={0.001000}>D20 Branca</option>
+                            <option value={0.001180}>D23 Branca</option>
+                            <option value={0.001350}>D27 Branca</option>
+                            <option value={0.001400}>D28 Azul</option>
+                            <option value={0.001450}>D28 Chumbo</option>
+                            <option value={0.001520}>28 Premium Verde clara</option>
+                            <option value={0.001480}>D33 Laranja</option>
+                            <option value={0.001680}>D33 Macia Laranja claro</option>
+                            <option value={0.001850}>D35 Amarela</option>
+                            <option value={0.002250}>D45 Chumbo</option>
+                            <option value={0.002450}>Aglomerado D80</option>
+                            <option value={0.001630}>D28 Macia Branca</option>
                         </Form.Select>
                         <Form.Text className="text-muted">
                             Densidade da espuma
