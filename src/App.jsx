@@ -96,7 +96,7 @@ function App() {
                             <option value={0.001400}>D28 Azul</option>
                             <option value={0.001450}>D28 Chumbo</option>
                             <option value={0.001520}>28 Premium Verde clara</option>
-                            <option value={0.001480}>D33 Laranja</option>
+                            <option value={0.001450}>D33 Laranja</option>
                             <option value={0.001680}>D33 Macia Laranja claro</option>
                             <option value={0.001850}>D35 Amarela</option>
                             <option value={0.002250}>D45 Chumbo</option>
@@ -156,3 +156,5 @@ function App() {
 
   )
 }
+
+export default App
