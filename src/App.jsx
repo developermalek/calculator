@@ -91,9 +91,9 @@ function App() {
                             <option>Abra este menu</option>
                             <option value={0.000800}>D15 Cinza</option>
                             <option value={0.001000}>D20 Branca</option>
-                            <option value={0.001180}>D23 Branca</option>
-                            <option value={0.001350}>D27 Branca</option>
-                            <option value={0.001400}>D28 Azul</option>
+                            <option value={0.001150}>D23 Branca</option>
+                            <option value={0.001250}>D26 Branca</option>
+                            <option value={0.001350}>D28 Azul</option>
                             <option value={0.001450}>D28 Chumbo</option>
                             <option value={0.001520}>28 Premium Verde clara</option>
                             <option value={0.001450}>D33 Laranja</option>
