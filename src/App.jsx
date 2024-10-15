@@ -94,11 +94,9 @@ function App() {
                             <option value={0.001180}>D23 Branca</option>
                             <option value={0.001250}>D26 Branca</option>
                             <option value={0.001300}>D28 Azul</option>
-                            <option value={0.001430}>D28 Chumbo</option>
-                            <option value={0.001520}>28 Premium Verde clara</option>
+                            <option value={0.001420}>D28 Chumbo</option>
                             <option value={0.001430}>D33 Laranja</option>
                             <option value={0.001680}>D33 Macia Rosa claro</option>
-                            <option value={0.001850}>D35 Amarela</option>
                             <option value={0.002250}>D45 Chumbo</option>
                             <option value={0.002100}>Aglomerado D80</option>
                             <option value={0.001630}>D28 Macia Branca</option>
